@@ -46,7 +46,7 @@
     <dict>
         <key>NSExceptionDomains</key>
         <dict>
-            <key>swiftcodingthai.com</key>
+            <key>androidthai.in.th</key>
             <dict>
                 <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
                 <true/>

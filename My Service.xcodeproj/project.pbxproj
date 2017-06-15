@@ -12,6 +12,11 @@
 		F11AF10E1EF25CF500D514BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11AF10C1EF25CF500D514BA /* Main.storyboard */; };
 		F11AF1101EF25CF500D514BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11AF10F1EF25CF500D514BA /* Assets.xcassets */; };
 		F11AF1131EF25CF500D514BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1111EF25CF500D514BA /* LaunchScreen.storyboard */; };
+		F11AF11B1EF27DFC00D514BA /* AddNewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11AF11A1EF27DFC00D514BA /* AddNewUserViewController.swift */; };
+		F11AF11F1EF2825800D514BA /* BG_SNRU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11AF11E1EF2825800D514BA /* BG_SNRU.jpg */; };
+		F11AF1231EF2858600D514BA /* ic_note_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1201EF2858600D514BA /* ic_note_add_2x.png */; };
+		F11AF1241EF2858600D514BA /* ic_note_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1211EF2858600D514BA /* ic_note_add_3x.png */; };
+		F11AF1251EF2858600D514BA /* ic_note_add.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1221EF2858600D514BA /* ic_note_add.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		F11AF10F1EF25CF500D514BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11AF1121EF25CF500D514BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F11AF1141EF25CF500D514BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11AF11A1EF27DFC00D514BA /* AddNewUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewUserViewController.swift; sourceTree = "<group>"; };
+		F11AF11E1EF2825800D514BA /* BG_SNRU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG_SNRU.jpg; path = ../../../../Desktop/BG_SNRU.jpg; sourceTree = "<group>"; };
+		F11AF1201EF2858600D514BA /* ic_note_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_2x.png; path = ../../../../Desktop/ic_note_add_2x.png; sourceTree = "<group>"; };
+		F11AF1211EF2858600D514BA /* ic_note_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_3x.png; path = ../../../../Desktop/ic_note_add_3x.png; sourceTree = "<group>"; };
+		F11AF1221EF2858600D514BA /* ic_note_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add.png; path = ../../../../Desktop/ic_note_add.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 		F11AF1071EF25CF500D514BA /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				F11AF1201EF2858600D514BA /* ic_note_add_2x.png */,
+				F11AF1211EF2858600D514BA /* ic_note_add_3x.png */,
+				F11AF1221EF2858600D514BA /* ic_note_add.png */,
+				F11AF11E1EF2825800D514BA /* BG_SNRU.jpg */,
 				F11AF1081EF25CF500D514BA /* AppDelegate.swift */,
 				F11AF10A1EF25CF500D514BA /* ViewController.swift */,
 				F11AF10C1EF25CF500D514BA /* Main.storyboard */,
+				F11AF11A1EF27DFC00D514BA /* AddNewUserViewController.swift */,
 				F11AF10F1EF25CF500D514BA /* Assets.xcassets */,
 				F11AF1111EF25CF500D514BA /* LaunchScreen.storyboard */,
 				F11AF1141EF25CF500D514BA /* Info.plist */,
@@ -123,8 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11AF1251EF2858600D514BA /* ic_note_add.png in Resources */,
 				F11AF1131EF25CF500D514BA /* LaunchScreen.storyboard in Resources */,
+				F11AF1231EF2858600D514BA /* ic_note_add_2x.png in Resources */,
+				F11AF1241EF2858600D514BA /* ic_note_add_3x.png in Resources */,
 				F11AF1101EF25CF500D514BA /* Assets.xcassets in Resources */,
+				F11AF11F1EF2825800D514BA /* BG_SNRU.jpg in Resources */,
 				F11AF10E1EF25CF500D514BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11AF10B1EF25CF500D514BA /* ViewController.swift in Sources */,
+				F11AF11B1EF27DFC00D514BA /* AddNewUserViewController.swift in Sources */,
 				F11AF1091EF25CF500D514BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
