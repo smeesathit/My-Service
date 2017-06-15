@@ -17,6 +17,9 @@
 		F11AF1231EF2858600D514BA /* ic_note_add_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1201EF2858600D514BA /* ic_note_add_2x.png */; };
 		F11AF1241EF2858600D514BA /* ic_note_add_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1211EF2858600D514BA /* ic_note_add_3x.png */; };
 		F11AF1251EF2858600D514BA /* ic_note_add.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1221EF2858600D514BA /* ic_note_add.png */; };
+		F11AF1291EF288A300D514BA /* ic_keyboard_arrow_left_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1261EF288A300D514BA /* ic_keyboard_arrow_left_2x.png */; };
+		F11AF12A1EF288A300D514BA /* ic_keyboard_arrow_left_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1271EF288A300D514BA /* ic_keyboard_arrow_left_3x.png */; };
+		F11AF12B1EF288A300D514BA /* ic_keyboard_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = F11AF1281EF288A300D514BA /* ic_keyboard_arrow_left.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		F11AF1201EF2858600D514BA /* ic_note_add_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_2x.png; path = ../../../../Desktop/ic_note_add_2x.png; sourceTree = "<group>"; };
 		F11AF1211EF2858600D514BA /* ic_note_add_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add_3x.png; path = ../../../../Desktop/ic_note_add_3x.png; sourceTree = "<group>"; };
 		F11AF1221EF2858600D514BA /* ic_note_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_note_add.png; path = ../../../../Desktop/ic_note_add.png; sourceTree = "<group>"; };
+		F11AF1261EF288A300D514BA /* ic_keyboard_arrow_left_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_2x.png; path = ../../../../Desktop/ic_keyboard_arrow_left_2x.png; sourceTree = "<group>"; };
+		F11AF1271EF288A300D514BA /* ic_keyboard_arrow_left_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left_3x.png; path = ../../../../Desktop/ic_keyboard_arrow_left_3x.png; sourceTree = "<group>"; };
+		F11AF1281EF288A300D514BA /* ic_keyboard_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_keyboard_arrow_left.png; path = ../../../../Desktop/ic_keyboard_arrow_left.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 		F11AF1071EF25CF500D514BA /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				F11AF1261EF288A300D514BA /* ic_keyboard_arrow_left_2x.png */,
+				F11AF1271EF288A300D514BA /* ic_keyboard_arrow_left_3x.png */,
+				F11AF1281EF288A300D514BA /* ic_keyboard_arrow_left.png */,
 				F11AF1201EF2858600D514BA /* ic_note_add_2x.png */,
 				F11AF1211EF2858600D514BA /* ic_note_add_3x.png */,
 				F11AF1221EF2858600D514BA /* ic_note_add.png */,
@@ -139,9 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11AF1251EF2858600D514BA /* ic_note_add.png in Resources */,
+				F11AF1291EF288A300D514BA /* ic_keyboard_arrow_left_2x.png in Resources */,
 				F11AF1131EF25CF500D514BA /* LaunchScreen.storyboard in Resources */,
 				F11AF1231EF2858600D514BA /* ic_note_add_2x.png in Resources */,
 				F11AF1241EF2858600D514BA /* ic_note_add_3x.png in Resources */,
+				F11AF12B1EF288A300D514BA /* ic_keyboard_arrow_left.png in Resources */,
+				F11AF12A1EF288A300D514BA /* ic_keyboard_arrow_left_3x.png in Resources */,
 				F11AF1101EF25CF500D514BA /* Assets.xcassets in Resources */,
 				F11AF11F1EF2825800D514BA /* BG_SNRU.jpg in Resources */,
 				F11AF10E1EF25CF500D514BA /* Main.storyboard in Resources */,
