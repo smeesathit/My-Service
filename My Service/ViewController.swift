@@ -97,6 +97,9 @@ class ViewController: UIViewController {
                         if myPassword == myContentArray[3] {
                             // Correct password
                             print("Correct password.")
+                            
+                            // Go to Map screen
+//                            performSegue(withIdentifier: "GoToMap", sender: self)
                         } else {
                             // Incorrect password
                             print("Incorrect password !!!")

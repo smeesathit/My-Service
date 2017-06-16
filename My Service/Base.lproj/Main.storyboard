@@ -90,6 +90,7 @@
                         <outlet property="alartLabel" destination="74s-9g-LOP" id="rqT-ck-bBR"/>
                         <outlet property="passwordTextField" destination="kmF-lj-yEa" id="fI9-dZ-SO2"/>
                         <outlet property="userTextField" destination="e64-sx-tHc" id="2F2-D3-dWU"/>
+                        <segue destination="jVY-Ty-v9G" kind="show" identifier="GoToMap" id="BOr-2y-B5B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -201,7 +202,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yRS-oC-tI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.8" y="145.27736131934034"/>
+            <point key="canvasLocation" x="1588" y="149"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="F0H-k9-hlz">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" title="Map" id="jVY-Ty-v9G" customClass="MapViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dhw-iH-gTv"/>
+                        <viewControllerLayoutGuide type="bottom" id="1hQ-nQ-JKT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JoP-Bb-xsF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tiW-fc-NmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="143"/>
         </scene>
     </scenes>
     <resources>
