@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var myString = ""
     var strUser:String? = nil
     var strPassword:String? = nil
-    var strMyJSON:String? = nil
+//    var strMyJSON:String? = nil
     
     
     @IBOutlet weak var userTextField: UITextField!
@@ -73,6 +73,18 @@ class ViewController: UIViewController {
                     let strJSON = dataString as Any
                     print("strJSON ==> \(strJSON)")
                     
+//                    if (dataString != nil) {
+//                        print("dataString not nil")
+//                        print(dataString as! String)
+//                    } else {
+//                        print("dataString is nil !!!")
+//                        print(dataString as! String)
+//                    
+//                    }   // End if
+                    
+
+                    
+                    
                     let strKey = ","
                     
                     if let myContentArray = dataString?.components(separatedBy: strKey){
@@ -80,6 +92,15 @@ class ViewController: UIViewController {
                         print("myContentArray[2] ==> \(myContentArray[2])")
                         print("myContentArray[3] ==> \(myContentArray[3])")
                         
+                        // Check password
+                        let myPassword = "\"Password\":\"" + self.strPassword! + "\"}]"
+                        if myPassword == myContentArray[3] {
+                            // Correct password
+                            print("Correct password.")
+                        } else {
+                            // Incorrect password
+                            print("Incorrect password !!!")
+                        }
                     } // inner if 2
                     
                     
