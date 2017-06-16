@@ -12,7 +12,7 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -61,7 +61,7 @@
         <!--AddNewUser-->
         <scene sceneID="dj2-ib-04a">
             <objects>
-                <viewController title="AddNewUser" id="U3n-Ps-8KK" customClass="AddNewUserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddNewUserViewController" title="AddNewUser" id="U3n-Ps-8KK" customClass="AddNewUserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mPV-EK-M9L"/>
                         <viewControllerLayoutGuide type="bottom" id="a3k-5u-L7g"/>
@@ -158,6 +158,7 @@
                         <outlet property="nameTextField" destination="s4w-ST-9T3" id="E2m-4k-YsK"/>
                         <outlet property="passwordTextField" destination="9tZ-Xk-ie9" id="eHN-6E-lSM"/>
                         <outlet property="userTextField" destination="UHK-dT-YOu" id="znE-YQ-AJc"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="tZA-qH-IRU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yRS-oC-tI4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -170,4 +171,7 @@
         <image name="ic_keyboard_arrow_left.png" width="24" height="24"/>
         <image name="ic_note_add.png" width="24" height="24"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="tZA-qH-IRU"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Explicit field declaration
+    var myString = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()

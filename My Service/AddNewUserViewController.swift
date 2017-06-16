@@ -53,6 +53,8 @@ class AddNewUserViewController: UIViewController {
             
             uploadValueToServer(strURL: strMyURL)
             
+            
+            
         } // End if-else
         
         } // End saveButton method
@@ -88,7 +90,7 @@ class AddNewUserViewController: UIViewController {
                     let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
                     let strJSON = dataString as Any
                     print("strJSON ==> \(strJSON)")
-                }
+                } // Inner if
                 
             } // outer if-else
             
@@ -97,8 +99,26 @@ class AddNewUserViewController: UIViewController {
         
         task.resume()
         
+        // Go back to first screen after adding new record
+        performSegue(withIdentifier: "BackHome", sender: "self")
+        
     } // End uploadValue method
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "goHome" {
+            
+            if let destination = segue.destination as? ViewController {
+                
+                destination.myString = (sender as? String)!
+                
+            }
+            
+        } // End if
+        
+        
+    } // End prepare function
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
