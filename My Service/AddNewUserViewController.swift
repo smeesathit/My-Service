@@ -51,6 +51,8 @@ class AddNewUserViewController: UIViewController {
             
             print("strMyURL ==> \(strMyURL)")
             
+            uploadValueToServer(strURL: strMyURL)
+            
         } // End if-else
         
         } // End saveButton method
@@ -63,6 +65,39 @@ class AddNewUserViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     } // End main method
+    
+    // Upload data to server
+    func uploadValueToServer(strURL: String) -> Void {
+        
+        // Connect to HTTP
+        let urlPHP = strURL
+        //"androidthai.in.th"
+        //"http://swiftcodingthai.com"
+        // Change String to url String
+        let myURL = URL(string: urlPHP)
+        
+        let request = NSMutableURLRequest(url: myURL!)
+        let task = URLSession.shared.dataTask(with: request as URLRequest){
+            data, response, error in
+            
+            if error != nil {
+                print("Error !!!")
+            } else {
+                
+                if let unwrappedData = data {
+                    let dataString = NSString(data: unwrappedData, encoding: String.Encoding.utf8.rawValue)
+                    let strJSON = dataString as Any
+                    print("strJSON ==> \(strJSON)")
+                }
+                
+            } // outer if-else
+            
+            
+        }
+        
+        task.resume()
+        
+    } // End uploadValue method
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
