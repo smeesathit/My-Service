@@ -34,6 +34,12 @@ class ViewController: UIViewController {
             alartLabel.alpha = 1
         } else {
             alartLabel.alpha = 0
+            let strURL = "http://androidthai.in.th/snru/getUserWhereSooksathit.php?isAdd=true&User=" + strUser! + ""
+            
+            print("strURL == \(strURL)")
+            
+            readJSON(strURL: strURL)
+            
         }
         
         
