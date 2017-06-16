@@ -15,6 +15,9 @@ class AddNewUserViewController: UIViewController {
     var userString: String? = nil
     var passwordString: String? = nil
     
+    
+    @IBOutlet weak var alertLabel: UILabel!
+    
     @IBOutlet weak var nameTextField: UITextField!
     
     @IBOutlet weak var userTextField: UITextField!
@@ -36,8 +39,18 @@ class AddNewUserViewController: UIViewController {
         if (intName == 0) || (intUser == 0) || (intPassword == 0) {
             // Have empty input
             print("Have empty input!!!")
+            // Make warning message visible
+            alertLabel.alpha = 1
         } else {
             print("No empty input!!!")
+            // Make warning message invisible
+            alertLabel.alpha = 0
+            
+            // Link for adding data in table on the server
+            let strMyURL = "http://androidthai.in.th/snru/addUserSooksathit.php?isAdd=true&Name=" + nameString! + "&User=" + userString! + "&Password=" + passwordString!
+            
+            print("strMyURL ==> \(strMyURL)")
+            
         } // End if-else
         
         } // End saveButton method
